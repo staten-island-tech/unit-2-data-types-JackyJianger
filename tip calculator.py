@@ -1,9 +1,12 @@
-input subtotal=float()
 
+print('Type your subtotal here:')
+subtotal=float(input())
 
 def Tip_calculator(tip_percent):
-    print(subtotal)
     tip=tip_percent*subtotal/100
     Total=tip+subtotal
-    print(Total)
+    print (Total)
     
+Tip_calculator(8.8785)
+
+
