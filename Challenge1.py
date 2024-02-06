@@ -1,4 +1,4 @@
-number = float(input('Give me any number'))
+number = int(input('Give me any number'))
 if (number%2  == 0):
     print('even')
 if (number%2 == 1):
