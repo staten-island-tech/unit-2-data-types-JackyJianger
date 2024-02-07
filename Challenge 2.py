@@ -1,15 +1,15 @@
 
 print('How was our service?')
 print('Bad(0%), Okay(15%), Good(20%) or Great(25%)')
-Service=str(input())
-if (Service == 'Bad''bad'):
+Service=str(input()).lower()
+if (Service == 'bad'):
     global tip_percent
     tip_percent=0
-elif (Service == 'Okay''okay'):
+elif (Service == 'okay'):
     tip_percent=15
-elif (Service == 'Good''good'):
+elif (Service == 'good'):
      tip_percent=20
-elif (Service == 'Great''great'):
+elif (Service == 'great'):
     tip_percent=25
 
 

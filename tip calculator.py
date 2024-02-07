@@ -7,6 +7,6 @@ def Tip_calculator(tip_percent):
     Total=tip+subtotal
     print (Total)
     
-Tip_calculator(8.8785)
+Tip_calculator(15)
 
 
