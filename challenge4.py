@@ -21,8 +21,11 @@ while a<= number2:
     else:
         a+=1
 
-for factors in factors1:  
-    if factors in factors2:
-        factors = []     
+
+factors=[]
+for x in factors1:  
+    if x in factors2:
+        factors.append(x)     
 print(factors2)
 
+print(factors[-1])
